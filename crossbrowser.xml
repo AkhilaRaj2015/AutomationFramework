@@ -1,0 +1,26 @@
+<suite name="GroceryAppSuite">
+	<listeners>
+		<listener class-name="utilities.ExtentReportUtility" />
+	</listeners>
+
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testCases.ManageNewsTestCases"></class>
+		</classes>
+	</test>
+	<!-- 
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="testCases.ManageProductTestCases"></class>
+		</classes>
+	</test>
+	<test name="EdgeTest">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="testCases.ManageProductTestCases"></class>
+		</classes>
+
+	</test>-->
+</suite>

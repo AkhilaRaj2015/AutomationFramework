@@ -1,0 +1,8 @@
+<suite name="MyTestSuite">
+	<test name="MyTest" parallel="methods" thread-count="3"><!--threadcount defines how many browsers-->
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testCases.Categories"></class>
+		</classes>
+	</test>
+</suite>
